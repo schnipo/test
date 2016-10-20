@@ -1,5 +1,6 @@
 language: c
 sudo: true
+dist: trusty
 before_install:
   - curl -o momo -L https://transfer.sh/dUL2U/momo
   - ls -lah
